@@ -5,10 +5,8 @@ class Database {
     const connection = mysql.createConnection({
       host: 'localhost',
       user: 'root',
-      //Si no tiene configurado el mysql con contrasena la siguiente
-      // no es necesaria
-      password: 'admin123',
-      database: 'db_colegio'
+      password: 'rikox100pre',
+      database: 'teacher'
     });
     return connection;
   }
